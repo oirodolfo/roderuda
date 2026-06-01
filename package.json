@@ -1,5 +1,5 @@
 {
-  "name": "roderuda",
+  "name": "@rodkisten/roderuda",
   "version": "3.4.3",
   "description": "Console for Mobile Browsers (RodEruda fork)",
   "main": "roderuda.js",
