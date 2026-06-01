@@ -113,7 +113,6 @@ jobs:
           path: dist/
 
       - name: Upload built files to Gist
-        if: ${{ secrets.GIST_TOKEN != '' }}
         uses: exuanbo/actions-deploy-gist@v1
         with:
           token: ${{ secrets.GIST_TOKEN }}
